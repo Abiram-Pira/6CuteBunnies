@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://images-cdn.welcomesoftware.com/Zz0wZGI4ZTI2NjhlNGQxMWViODVlN2QzNTI0ZjhkZTQyOA==);
+    background-repeat: no-repeat;
+    margin-bottom: -1000px;
+    }
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+}
+.home-button {
+    background-color: #f44336;
+}
+
+.button-group {
+    text-align: bottom;
+    margin-top: 20px;
+    position: relative;
+    top: -560px;
+}
+
+.button-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.button-group button:hover {
+    background-color: #179757;
+    transition: 0.75s;
+    padding: 15px;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    color: #000000;
+    padding: 10px;
+    border: 3px;
+    border-color: #179757;
+
+}
+
+.container {
+    border: 3px solid #979797; 
+    padding: 8px; 
+    padding-top: 5px;
+}
+
+.bunnyinfo {
+   position: relative;
+   top: -570px;
+   left: 5px;
+}
+
+.r123button-group {
+    text-align: bottom;
+    margin-top: 20px;
+}
+
+.r123button-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.r123button-group button:hover {
+    background-color: #179757;
+    transition: 0.75s;
+    padding: 15px;
+}
+
+.image-box {
+    position: relative;
+    top: -13px;
+}
